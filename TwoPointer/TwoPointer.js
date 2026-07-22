@@ -55,7 +55,7 @@ function onClickCheck() {
     while (left < right) {
         let sum = twoPointer[left] + twoPointer[right];
         if (sum === target) {
-            divCheck.innerHTML = `Pair found: ${twoPointer[left]} + ${twoPointer[right]} = ${target}`;
+            divCheck.innerHTML = `✅ Pair found: ${twoPointer[left]} + ${twoPointer[right]} = ${target}`;
             found = true;
             break;
         } else if (sum < target) {
