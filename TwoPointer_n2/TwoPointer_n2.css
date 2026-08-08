@@ -1,0 +1,53 @@
+/* TwoPointer_n2.css */
+
+/* General page styling */
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f7fa;
+  margin: 0;
+  padding: 40px;
+  color: #333;
+}
+
+/* Heading */
+h2 {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+/* Label */
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+/* Input field */
+input[type="text"] {
+  width: 100%;
+  max-width: 400px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+
+/* Button */
+button {
+  background: #3498db;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #2980b9;
+}
+
+
